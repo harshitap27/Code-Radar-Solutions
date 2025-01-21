@@ -1,4 +1,4 @@
-inchar main()
+char main()
 {
     char x;
     scanf("%c",&x);
