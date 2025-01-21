@@ -1,3 +1,4 @@
+#include<stdio.h>
 int main()
 {
     int x,y,sum=0;
@@ -5,4 +6,5 @@ int main()
     scanf("%d",&y);
     sum=x+y;
     print("Sum: %d",sum);
+    return 0;
 }
