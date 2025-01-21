@@ -1,4 +1,4 @@
-int main
+int main()
 {
     float x;
     printf("%f",x);
