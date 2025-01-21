@@ -1,6 +1,6 @@
 int main()
 {
-    char str[x];
-    scanf("%s",&x);
-    printf("You entered: %s",x);
+    char str[];
+    scanf("%s",str);
+    printf("You entered: %s",str);
 }
