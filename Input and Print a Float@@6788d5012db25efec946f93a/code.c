@@ -1,9 +1,6 @@
-int main()
-{
-    float x,y;
-    printf("You entered:");
-    scanf("%f",&x);
-    printf("You entered:%f",x);
- 
-    
+int main(){
+    float a;
+    scanf("%f",&a);
+    printf("You entered: %f",a);
+    return 0;
 }
