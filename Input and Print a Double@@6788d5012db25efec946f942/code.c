@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    float x;
-    scanf("%f",&x);
-    printf("You entered: %f",x);
+    long float x;
+    scanf("%lf",&x);
+    printf("You entered: %lf",x);
 }
