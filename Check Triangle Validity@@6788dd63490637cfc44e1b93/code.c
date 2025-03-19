@@ -7,5 +7,8 @@ int main(){
     if(h*h==a){
         printf("Valid");
     }
+    else{
+        printf("Invalid");
+    }
     return 0;
 }
