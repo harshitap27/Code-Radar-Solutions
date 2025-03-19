@@ -4,7 +4,7 @@ int main(){
     int p,b,h,a;
     scanf("%d%d%d",&p,&b,&h);
     a=p*p+b*b;
-    if(h==a){
+    if(h*h==a){
         printf("Valid");
     }
     return 0;
