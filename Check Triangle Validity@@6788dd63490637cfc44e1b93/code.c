@@ -7,4 +7,5 @@ int main(){
     if(h==a){
         printf("Valid");
     }
+    return 0;
 }
