@@ -3,13 +3,18 @@
 int main() {
     char ch;
     scanf("%c", &ch);
+
+    // Convert using ASCII difference
     if (ch >= 'A' && ch <= 'Z') {
-        ch = ch - 32;  
-        printf("Lowercase", ch);
+        printf("Uppercase");
+    } 
+    else{
+        printf("Lowercase");
+    }
     } 
     else {
-        printf("Uppercase", ch);
-    } 
+        printf("Not an alphabet character!\n");
+    }
 
     return 0;
 }
