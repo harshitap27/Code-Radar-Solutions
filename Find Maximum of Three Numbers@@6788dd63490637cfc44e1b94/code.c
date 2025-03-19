@@ -18,8 +18,8 @@ int main(){
         else{
             printf("%d",a);
         }
-    }
-    // else{
-    //     printf("%d",b);
-    // }
+     }
+     else{
+         printf("%d",b);
+     }
 }
